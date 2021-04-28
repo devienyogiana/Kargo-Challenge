@@ -24,9 +24,9 @@ function convertToString(number) {
 function printNumbers(array) {
     str = "";
     for (let i = 0; i < array.length; i++ ) {
-        str += convertToString(array[i]) + ", ";
+        str += convertToString(array[i]) + ",";
     }
-    return str.slice(0, str.length - 2);
+    return str.slice(0, str.length - 1);
 }
 
 module.exports = {convertToString, printNumbers};
